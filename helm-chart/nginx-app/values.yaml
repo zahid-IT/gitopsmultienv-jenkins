@@ -1,0 +1,12 @@
+replicaCount: 2
+
+image:
+  repository: zahidbilal/helm-argocd
+  tag: v1
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+
+resources: {}
